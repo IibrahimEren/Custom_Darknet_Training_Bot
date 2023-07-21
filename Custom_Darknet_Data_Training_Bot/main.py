@@ -30,14 +30,14 @@ while True:
     file = f"spot_data\\spot_images\\{name}"
 #########################################################################
 
-##### writing labels coordinates for our object #####
+##### write object coordinats as labels #####
     path = open(f"spot_data\\spot_labels\\{name}.txt", "w")
     path.write("0 " + str("%.6f" % (Frame_midX / frame_width)) + " " + str("%.6f" % (Frame_midY / frame_height)) + " " + str(
         "%.6f" % (box_width / frame_width)) + " " + str("%.6f" % (box_height / frame_height)))
     path.close()
 ########################################################################
 
-#### Add path of frames to training file ####
+#### Add frames path to training file ####
     path = open("spot_training.txt", "a")
     path.write(f"{file}\n")
     cv2.imshow("Android Camera", frame)
