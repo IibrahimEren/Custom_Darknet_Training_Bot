@@ -2,6 +2,12 @@
 
 This Python script collects frames from a camera URL and saves them as JPEG files. Additionally, it generates label files containing object coordinates for each saved frame. The captured frames and their corresponding labels can be used for training object detection models.
 
+
+
+https://github.com/IibrahimEren/Custom_Darknet_Training_Bot/assets/87008174/571a5e77-d445-4670-95c6-d4b12e657fa5
+
+
+
 ## Requirements
 
 - Python 3.x
