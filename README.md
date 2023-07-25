@@ -24,6 +24,7 @@ pip install opencv-python numpy requests
 ## How to Use
 
 1. Replace `-ID-` in the `url` variable with the camera's IP address or the URL where the camera is streaming the images.
+-I used IP Webcam app from the Google Play Store for this
 
 2. Run the script:
 
